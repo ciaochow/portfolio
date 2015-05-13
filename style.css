@@ -1,0 +1,144 @@
+body {
+  /* font-size: 1em; */
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.masthead-intro, .masthead-heading, .content-footer {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url('../first-site/kmanta5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid .4em #FFCF33;
+  border-bottom: solid .4em #FFCF33;
+  text-shadow: 5px 5px 5px #FFF;
+}
+
+.masthead-intro {
+  padding-top: 0.7em;
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+ }
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 4.3em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.introduction, .location, .projects, .questions {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.social > li {
+  display: inline-block;
+}
+
+.introduction > p, .location > p, .content-footer > p {
+  /*Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.questions > h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 2em 0 1em 0;
+}
+
+section > h1 {
+  margin-top: 2em;
+} 
+
+.projects article a {
+  color: 0E49E8;
+  text-decoration: none;
+}
+
+/* Footer Declarations */
+.content-footer {
+  background-color: #007382;
+  background-size: cover; 
+  position: relative;
+  padding-top: 1.0rem;
+  padding-bottom: 2.8rem;
+  border-top: solid .3em #FFCF33;
+  border-bottom: solid .3em #FFCF33;
+}
+
+.content-footer .fa {
+  font-size: 2.7rem;
+  padding: 0px 30px;
+}
+
+.content-footer > .social {
+  margin: 0px 20px; 
+  justify-content: center;
+  padding: 10px 0px;
+  display: flex;
+}
+
+.content-footer > p {
+  font-size: 1.4rem;
+}
+
+.content-footer a {
+  color: #CCC;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #38271e;
+}
+
+/* Responsive Design - under 500px */
+@media screen and (max-width: 500px) {
+  .masthead {
+    padding:  3em 0;
+    background-image: url('../first-site/kmanta-500res.jpg');
+  }
+  .masthead-heading {
+    font-size: 1.5em;
+  }
+  .masthead-intro {
+    font-size: 1em;
+  }
+  section {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  .content-footer  {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+  }
+  .content-footer > p {
+  font-size: 1rem;
+  }
+  .questions > h2 {
+    font-size: .8em;
+  }
+  section > h1 {
+    font-size: 1em;
+  }
+  section > p {
+    font-size: .8em;
+  }
+  .projects li a {
+    font-size: .8em;
+  }
+  .content-footer .fa {
+    font-size: 1.5rem;
+  }
+}
