@@ -9,7 +9,7 @@ body {
 
 .masthead {
   padding: 6em 0;
-  background-image: url('../first-site/kmanta5.jpg');
+  background-image: url('kmanta5.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   border-top: solid .4em #FFCF33;
@@ -106,7 +106,7 @@ a:hover {
 @media screen and (max-width: 500px) {
   .masthead {
     padding:  3em 0;
-    background-image: url('../first-site/kmanta-500res.jpg');
+    background-image: url('kmanta-500res.jpg');
   }
   .masthead-heading {
     font-size: 1.5em;
