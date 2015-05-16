@@ -8,36 +8,36 @@ body {
 }
 
 .masthead {
-  padding: 6em 0;
+  padding: 6rem 0;
   background-image: url('kmanta5.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  border-top: solid .4em #FFCF33;
-  border-bottom: solid .4em #FFCF33;
+  border-top: solid .4rem #FFCF33;
+  border-bottom: solid .4rem #FFCF33;
   text-shadow: 5px 5px 5px #FFF;
 }
 
 .masthead-intro {
-  padding-top: 0.7em;
-  margin-bottom: 0.1em;
+  padding-top: 0.7rem;
+  margin-bottom: 0.1rem;
   font-family: "Gentium Book Basic", Georgia, serif;
-  font-size: 2em;
+  font-size: 2rem;
  }
 
 .masthead-heading {
-  margin-top: -0.2em;
+  margin-top: -0.2rem;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
-  font-size: 4.3em;
-  letter-spacing: -0.02em;
+  font-size: 4.3rem;
+  letter-spacing: -0.02rem;
   text-transform: uppercase;
 }
 
 .introduction, .location, .projects, .questions {
-  max-width: 38em;
+  max-width: 38rem;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2em;
+  margin-top: 2rem;
 }
 
 .social > li {
@@ -47,18 +47,18 @@ body {
 .introduction > p, .location > p, .content-footer > p {
   /*Typography Declarations */
   font-weight: 300;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.05rem;
 }
 
 .questions > h2 {
   font-family: "Gentium Book Basic", Georgia, serif;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: bold;
-  margin: 2em 0 1em 0;
+  margin: 2rem 0 1rem 0;
 }
 
 section > h1 {
-  margin-top: 2em;
+  margin-top: 2rem;
 } 
 
 .projects article a {
@@ -73,8 +73,8 @@ section > h1 {
   position: relative;
   padding-top: 1.0rem;
   padding-bottom: 2.8rem;
-  border-top: solid .3em #FFCF33;
-  border-bottom: solid .3em #FFCF33;
+  border-top: solid .3rem #FFCF33;
+  border-bottom: solid .3rem #FFCF33;
 }
 
 .content-footer .fa {
@@ -105,18 +105,19 @@ a:hover {
 /* Responsive Design - under 500px */
 @media screen and (max-width: 500px) {
   .masthead {
-    padding:  3em 0;
+    padding:  3rem 0;
     background-image: url('kmanta-500res.jpg');
+    background-repeat: no-repeat;
   }
   .masthead-heading {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
   .masthead-intro {
-    font-size: 1em;
+    font-size: 1rem;
   }
   section {
-    padding-left: 1.5em;
-    padding-right: 1.5em;
+    padding-left: .3rem;
+    padding-right: .3rem;
   }
   .content-footer  {
     margin-top: 1rem;
@@ -124,21 +125,21 @@ a:hover {
     padding-bottom: 1.5rem;
   }
   .content-footer > p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   }
   .questions > h2 {
-    font-size: .8em;
+    font-size: 1.2rem;
   }
   section > h1 {
-    font-size: 1em;
+    font-size: 1rem;
   }
   section > p {
-    font-size: .8em;
+    font-size: 1rem;
   }
-  .projects li a {
-    font-size: .8em;
-  }
-  .content-footer .fa {
-    font-size: 1.5rem;
-  }
+  /* .projects li a {
+    font-size: .8rem;
+  } */
+  /* .content-footer .fa {
+    font-size: 1.5rem; 
+  } */
 }
