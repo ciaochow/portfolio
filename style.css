@@ -107,6 +107,7 @@ a:hover {
   .masthead {
     padding:  3em 0;
     background-image: url('kmanta-500res.jpg');
+    background-repeat: no-repeat;
   }
   .masthead-heading {
     font-size: 1.5em;
@@ -115,8 +116,8 @@ a:hover {
     font-size: 1em;
   }
   section {
-    padding-left: 1.5em;
-    padding-right: 1.5em;
+    padding-left: .3em;
+    padding-right: .3em;
   }
   .content-footer  {
     margin-top: 1rem;
@@ -124,21 +125,21 @@ a:hover {
     padding-bottom: 1.5rem;
   }
   .content-footer > p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   }
   .questions > h2 {
-    font-size: .8em;
+    font-size: 1.2em;
   }
   section > h1 {
     font-size: 1em;
   }
   section > p {
-    font-size: .8em;
+    font-size: 1em;
   }
-  .projects li a {
+  /* .projects li a {
     font-size: .8em;
-  }
-  .content-footer .fa {
+  } */
+  /* .content-footer .fa {
     font-size: 1.5rem;
-  }
+  } */
 }
